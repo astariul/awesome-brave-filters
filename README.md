@@ -16,7 +16,7 @@ This repository is a curated list of custom filters that you can use to improve 
 
 Go to [Brave filters settings](brave://settings/shields/filters), and copy-paste the filters of your choice in the "Create custom filters" box.
 
-![](https://github.com/astariul/awesome-brave-filters/assets/43774355/253d9a99-2770-4b3a-8bfa-97375fb55b76)
+![](https://github.com/astariul/awesome-brave-filters/assets/43774355/dc6369a2-6dfa-4329-8611-8d34783878a2)
 
 
 ## Content filters
