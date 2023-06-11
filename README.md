@@ -35,8 +35,7 @@ Go to [Brave filters settings](brave://settings/shields/filters), and copy-paste
 
 ```
 youtube.com##div#header > ytd-feed-filter-chip-bar-renderer
-youtube.com##div#contents > ytd-rich-grid-row
-youtube.com##div#contents > ytd-rich-section-renderer
+youtube.com##div#contents.ytd-rich-grid-renderer
 ```
 
 <details><summary>Remove the videos displayed on the home page of Youtube.</summary>
