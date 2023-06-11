@@ -5,10 +5,10 @@ A awesome list of custom content filters for Brave browser.
 * [What are content filters ?](#what-are-content-filters--)
 * [How to use](#how-to-use)
 * [Filters](#filters)
-+ [Hiding feeds](#hiding-feeds)
-    - [Youtube - Welcome page](#youtube---welcome-page)
-    - [Youtube - Next videos](#youtube---next-videos)
-    - [StackOverflow - Hot questions](#stackoverflow---hot-questions)
+    + [Hiding feeds](#hiding-feeds)
+        - [Youtube - Welcome page](#youtube---welcome-page)
+        - [Youtube - Next videos](#youtube---next-videos)
+        - [StackOverflow - Hot questions](#stackoverflow---hot-questions)
 
 
 ## What are content filters ?
