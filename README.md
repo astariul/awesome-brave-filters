@@ -24,7 +24,7 @@ This repository is a curated list of custom filters that you can use to improve 
 
 Go to [Brave filters settings](brave://settings/shields/filters), and copy-paste the filters of your choice in the "Create custom filters" box.
 
-![](https://github.com/astariul/awesome-brave-filters/assets/43774355/dc6369a2-6dfa-4329-8611-8d34783878a2)
+![](https://github.com/astariul/awesome-brave-filters/assets/43774355/0b9a4824-8c18-4e94-a493-d21fcc1e19d1)
 
 
 ## Filters
@@ -40,13 +40,13 @@ youtube.com##div#contents.ytd-rich-grid-renderer
 
 <details><summary>Remove the videos displayed on the home page of Youtube.</summary>
 
-![](https://github.com/astariul/awesome-brave-filters/assets/43774355/5a3e796e-4bdf-4dd2-95f9-9bd668315504)
+![](https://github.com/astariul/awesome-brave-filters/assets/43774355/df4e640d-0510-45ab-8831-0d275a1f9a5a)
 
 </details>
 
 <details><summary>It also removes the feed filter at the top.</summary>
 
-![](https://github.com/astariul/awesome-brave-filters/assets/43774355/9318da1e-5dd8-41d2-a55c-540bede06537)
+![](https://github.com/astariul/awesome-brave-filters/assets/43774355/bf7b1ba4-b48c-4147-be50-51258954eeef)
 
 </details>
 
@@ -59,7 +59,7 @@ youtube.com##div#columns > div#secondary
 
 <details><summary>When you are watching a video, remove the list of videos to watch next displayed on the right.</summary>
 
-![](https://github.com/astariul/awesome-brave-filters/assets/43774355/2ad4b941-eb75-4f17-bd37-276dbd127644)
+![](https://github.com/astariul/awesome-brave-filters/assets/43774355/ca4a75fd-74e8-493e-9926-b9187975025e)
 
 </details>
 
@@ -73,6 +73,6 @@ stackoverflow.com,stackexchange.com##div#feed-link
 
 <details><summary>Remove the list of hot questions on the right-side menu, as well as the questions feed button.</summary>
 
-![](https://github.com/astariul/awesome-brave-filters/assets/43774355/7cd17ce1-85e2-4b07-b927-9d47ffe93e73)
+![](https://github.com/astariul/awesome-brave-filters/assets/43774355/291bad8f-75ff-4a15-8d94-1b34867f799d)
 
 </details>
