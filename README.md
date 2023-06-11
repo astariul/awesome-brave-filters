@@ -2,6 +2,14 @@
 
 A awesome list of custom content filters for Brave browser.
 
+* [What are content filters ?](#what-are-content-filters--)
+* [How to use](#how-to-use)
+* [Filters](#filters)
++ [Hiding feeds](#hiding-feeds)
+    - [Youtube - Welcome page](#youtube---welcome-page)
+    - [Youtube - Next videos](#youtube---next-videos)
+    - [StackOverflow - Hot questions](#stackoverflow---hot-questions)
+
 
 ## What are content filters ?
 
@@ -19,7 +27,7 @@ Go to [Brave filters settings](brave://settings/shields/filters), and copy-paste
 ![](https://github.com/astariul/awesome-brave-filters/assets/43774355/dc6369a2-6dfa-4329-8611-8d34783878a2)
 
 
-## Content filters
+## Filters
 
 ### Hiding feeds
 
