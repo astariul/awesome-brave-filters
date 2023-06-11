@@ -1,0 +1,30 @@
+name: 🦋 Filter with side-effect
+description: Report the side-effect of a filter
+title: "🦋 "
+labels: ["side-effect", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this side-effect report !
+  - type: input
+    id: filter
+    attributes:
+      label: Which filter has a side-effect ?
+      description: Name which content filter has a side-effect. You can also link the proper section of the README.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of the side-effect this filter has. Feel free to add screenshots !
+    validations:
+      required: true
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      description: Can you fix this filter and submit a PR ?
+      options:
+        - label: Yes, I can fix the filter myself and submit a PR.

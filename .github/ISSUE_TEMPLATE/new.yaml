@@ -1,0 +1,30 @@
+name: 🌟 Filter request
+description: Ask for a new content filter to be added
+title: "🌟 "
+labels: ["filter-request", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this request form !
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      description: On which website you'd like to have a new content filter ?
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description which element should be filtered. Feel free to add screenshots !
+    validations:
+      required: true
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      description: Can you contribute and submit a PR for this filter ?
+      options:
+        - label: Yes, I can create the filter myself and submit a PR.

@@ -1,0 +1,30 @@
+name: 🐛 Broken filter
+description: Report a broken filter
+title: "🐛 "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report !
+  - type: input
+    id: filter
+    attributes:
+      label: Which filter is broken ?
+      description: Name which content filter doesn't seem to work like it should. You can also link the proper section of the README.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of why you think this filter is broken. Feel free to add screenshots !
+    validations:
+      required: true
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      description: Can you fix this filter and submit a PR ?
+      options:
+        - label: Yes, I can fix the filter myself and submit a PR.
