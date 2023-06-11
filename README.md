@@ -39,6 +39,7 @@ It also removes the feed filter at the top.
 
 ![](https://github.com/astariul/awesome-brave-filters/assets/43774355/9318da1e-5dd8-41d2-a55c-540bede06537)
 
+
 #### Youtube - Next videos
 
 ```
@@ -48,3 +49,15 @@ youtube.com##div#columns > div#secondary
 When you are watching a video, remove the list of videos to watch next displayed on the right.
 
 ![](https://github.com/astariul/awesome-brave-filters/assets/43774355/2ad4b941-eb75-4f17-bd37-276dbd127644)
+
+
+#### StackOverflow - Hot questions
+
+```
+stackoverflow.com,stackexchange.com##div#hot-network-questions
+stackoverflow.com,stackexchange.com##div#feed-link
+```
+
+Remove the list of hot questions on the right-side menu, as well as the questions feed button.
+
+![](https://github.com/astariul/awesome-brave-filters/assets/43774355/7cd17ce1-85e2-4b07-b927-9d47ffe93e73)
