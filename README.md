@@ -9,6 +9,7 @@ A awesome list of custom content filters for Brave browser.
         - [Youtube - Welcome page](#youtube---welcome-page)
         - [Youtube - Next videos](#youtube---next-videos)
         - [StackOverflow - Hot questions](#stackoverflow---hot-questions)
+        - [LinkedIn - Feed](#linkedin---feed)
     + [Hiding promoted contents](#hiding-promoted-contents)
         - [LinkedIn - Promoted posts](#linkedin---promoted-posts)
 
@@ -76,6 +77,19 @@ stackoverflow.com,stackexchange.com##div#feed-link
 <details><summary>Remove the list of hot questions on the right-side menu, as well as the questions feed button.</summary>
 
 ![](https://github.com/astariul/awesome-brave-filters/assets/43774355/291bad8f-75ff-4a15-8d94-1b34867f799d)
+
+</details>
+
+
+#### LinkedIn - Feed
+
+```
+linkedin.com##main > div:has(div.scaffold-finite-scroll--infinite)
+```
+
+<details><summary>Remove the main page's feed.</summary>
+
+![](https://github.com/astariul/awesome-brave-filters/assets/43774355/f5bfa6d1-c78d-4d07-8c3d-4e2dbeee2fce)
 
 </details>
 
