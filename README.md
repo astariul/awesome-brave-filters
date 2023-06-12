@@ -9,6 +9,8 @@ A awesome list of custom content filters for Brave browser.
         - [Youtube - Welcome page](#youtube---welcome-page)
         - [Youtube - Next videos](#youtube---next-videos)
         - [StackOverflow - Hot questions](#stackoverflow---hot-questions)
+    + [Hiding promoted contents](#hiding-promoted-contents)
+        - [LinkedIn - Promoted posts](#linkedin---promoted-posts)
 
 
 ## What are content filters ?
@@ -76,3 +78,21 @@ stackoverflow.com,stackexchange.com##div#feed-link
 ![](https://github.com/astariul/awesome-brave-filters/assets/43774355/291bad8f-75ff-4a15-8d94-1b34867f799d)
 
 </details>
+
+
+### Hiding promoted contents
+
+#### LinkedIn - Promoted posts
+
+```
+linkedin.com##div.feed-shared-update-v2:has(a[aria-label~="sponsorisé"])
+linkedin.com##div.feed-shared-update-v2:has(a[aria-label~="Promoted"])
+```
+
+<details><summary>Remove promoted posts.</summary>
+
+![](https://github.com/astariul/awesome-brave-filters/assets/43774355/a3df6c78-f080-47e0-8d7e-e85ebbeb3d0e)
+
+</details>
+
+_Note : Only works if the LinkedIn interface is in French or English._
