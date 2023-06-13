@@ -84,7 +84,7 @@ stackoverflow.com,stackexchange.com##div#feed-link
 #### LinkedIn - Feed
 
 ```
-linkedin.com##main > div:has(div.scaffold-finite-scroll--infinite)
+linkedin.com##main > div:has(h1 + div.scaffold-finite-scroll--infinite)
 ```
 
 <details><summary>Remove the main page's feed.</summary>
