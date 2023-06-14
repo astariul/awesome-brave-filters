@@ -1,17 +1,21 @@
-# Awesome Brave filters [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
+<h1 align="center">Awesome Brave filters</h1>
+<p align="center">
 A awesome list of custom content filters for Brave browser.
+</p>
 
-* [What are content filters ?](#what-are-content-filters--)
-* [How to use](#how-to-use)
-* [Filters](#filters)
-    + [Hiding feeds](#hiding-feeds)
-        - [Youtube - Welcome page](#youtube---welcome-page)
-        - [Youtube - Next videos](#youtube---next-videos)
-        - [StackOverflow - Hot questions](#stackoverflow---hot-questions)
-        - [LinkedIn - Feed](#linkedin---feed)
-    + [Hiding promoted contents](#hiding-promoted-contents)
-        - [LinkedIn - Promoted posts](#linkedin---promoted-posts)
+<p align="center">
+    <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+</p>
+
+<p align="center">
+  <a href="#what-are-content-filters--">What are content filters ?</a> •
+  <a href="#how-to-use">How to use</a>
+  <br>
+  <br>
+  <a href="#filters-for-hiding-feeds">Filters for hiding feeds</a>
+  <br>
+  <a href="#filters-for-hiding-promoted-contents">Filters for hiding promoted contents</a>
+</p>
 
 
 ## What are content filters ?
@@ -30,76 +34,74 @@ Go to [Brave filters settings](brave://settings/shields/filters), and copy-paste
 ![](https://github.com/astariul/awesome-brave-filters/assets/43774355/0b9a4824-8c18-4e94-a493-d21fcc1e19d1)
 
 
-## Filters
+## Filters for hiding feeds
 
-### Hiding feeds
-
-#### Youtube - Welcome page
+<details><summary>Youtube - Welcome page</summary>
 
 ```
 youtube.com##ytd-browse:has(div#header:empty)
 ```
 
-<details><summary>Remove the videos displayed on the home page of Youtube.</summary>
+Remove the videos feed displayed on the home page of Youtube.
 
 ![](https://github.com/astariul/awesome-brave-filters/assets/43774355/df4e640d-0510-45ab-8831-0d275a1f9a5a)
 
 </details>
 
 
-#### Youtube - Next videos
+<details><summary>Youtube - Next videos</summary>
 
 ```
 youtube.com##div#columns > div#secondary
 ```
 
-<details><summary>When you are watching a video, remove the list of videos to watch next displayed on the right.</summary>
+When you are watching a video, remove the list of videos to watch next displayed on the right.
 
 ![](https://github.com/astariul/awesome-brave-filters/assets/43774355/ca4a75fd-74e8-493e-9926-b9187975025e)
 
 </details>
 
 
-#### StackOverflow - Hot questions
+<details><summary>StackOverflow - Hot questions</summary>
 
 ```
 stackoverflow.com,stackexchange.com##div#hot-network-questions
 stackoverflow.com,stackexchange.com##div#feed-link
 ```
 
-<details><summary>Remove the list of hot questions on the right-side menu, as well as the questions feed button.</summary>
+Remove the list of hot questions on the right-side menu, as well as the questions feed button.
 
 ![](https://github.com/astariul/awesome-brave-filters/assets/43774355/291bad8f-75ff-4a15-8d94-1b34867f799d)
 
 </details>
 
 
-#### LinkedIn - Feed
+<details><summary>LinkedIn - Feed</summary>
 
 ```
 linkedin.com##main > div:has(h1 + div.scaffold-finite-scroll--infinite)
 ```
 
-<details><summary>Remove the main page's feed.</summary>
+Remove the main page's feed.
 
 ![](https://github.com/astariul/awesome-brave-filters/assets/43774355/f5bfa6d1-c78d-4d07-8c3d-4e2dbeee2fce)
 
 </details>
 
 
-### Hiding promoted contents
+## Filters for hiding promoted contents
 
-#### LinkedIn - Promoted posts
+<details><summary>LinkedIn - Promoted posts</summary>
 
 ```
 linkedin.com##div.feed-shared-update-v2:has(a[aria-label~="sponsorisé"])
 linkedin.com##div.feed-shared-update-v2:has(a[aria-label~="Promoted"])
 ```
 
-<details><summary>Remove promoted posts.</summary>
+Remove promoted posts.
+
+_Note : Only works if the LinkedIn interface is in French or English._
 
 ![](https://github.com/astariul/awesome-brave-filters/assets/43774355/a3df6c78-f080-47e0-8d7e-e85ebbeb3d0e)
 
 </details>
-
-_Note : Only works if the LinkedIn interface is in French or English._
