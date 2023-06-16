@@ -89,6 +89,19 @@ Remove the main page's feed.
 </details>
 
 
+<details><summary>Reddit - Feed</summary>
+
+```
+reddit.com##div[style="max-width:100%"] + div[style="max-width:100%"] > div:first-child
+```
+
+Remove the feed for any sub-reddit.
+
+![](https://github.com/astariul/awesome-brave-filters/assets/43774355/096ddd6f-cf63-4027-8f4d-437539a45517)
+
+</details>
+
+
 ## Filters for hiding promoted contents
 
 <details><summary>LinkedIn - Promoted posts</summary>
