@@ -92,7 +92,7 @@ Remove the main page's feed.
 <details><summary>Reddit - Feed</summary>
 
 ```
-reddit.com##div[style*="width"] + div[style*="width"] > div:first-child
+reddit.com##div[style*="width"][style*="100%"] + div[style*="width"][style*="100%"] > div:first-child
 ```
 
 Remove the feed for any sub-reddit.
