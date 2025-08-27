@@ -17,7 +17,6 @@ A awesome list of custom content filters for Brave browser.
   <a href="#filters-for-hiding-promoted-contents">Filters for hiding promoted contents</a>
 </p>
 
-
 ## What are content filters ?
 
 Content filters allows you to hide specific contents of a web-page, using a specific syntax to detect these unwanted elements.
@@ -58,6 +57,19 @@ youtube.com##div#columns > div#secondary
 When you are watching a video, remove the list of videos to watch next displayed on the right.
 
 ![](https://github.com/astariul/awesome-brave-filters/assets/43774355/ca4a75fd-74e8-493e-9926-b9187975025e)
+
+</details>
+
+
+<details><summary>Youtube - Shorts</summary>
+
+```
+youtube.com##div [is-shorts]
+```
+
+Removes the row of shorts from the home page.
+
+![](https://github.com/user-attachments/assets/aee144ff-f48e-4f1d-b49b-3b4f51da2fbc)
 
 </details>
 
